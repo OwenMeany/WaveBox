@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B23563421AEE9460037598A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23563321AEE9460037598A /* AppDelegate.swift */; };
+		4B23563621AEE9460037598A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23563521AEE9460037598A /* ViewController.swift */; };
+		4B23563921AEE9460037598A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B23563721AEE9460037598A /* Main.storyboard */; };
+		4B23563B21AEE9460037598A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B23563A21AEE9460037598A /* Assets.xcassets */; };
+		4B23563E21AEE9460037598A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B23563C21AEE9460037598A /* LaunchScreen.storyboard */; };
+		4B23564921AEE9470037598A /* WaveBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23564821AEE9470037598A /* WaveBoxTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B23564521AEE9470037598A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B23562821AEE9460037598A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B23562F21AEE9460037598A;
+			remoteInfo = WaveBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B23563021AEE9460037598A /* WaveBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B23563321AEE9460037598A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B23563521AEE9460037598A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B23563821AEE9460037598A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B23563A21AEE9460037598A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B23563D21AEE9460037598A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B23563F21AEE9460037598A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B23564421AEE9470037598A /* WaveBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B23564821AEE9470037598A /* WaveBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveBoxTests.swift; sourceTree = "<group>"; };
+		4B23564A21AEE9470037598A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B23562D21AEE9460037598A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B23564121AEE9470037598A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B23562721AEE9460037598A = {
+			isa = PBXGroup;
+			children = (
+				4B23563221AEE9460037598A /* WaveBox */,
+				4B23564721AEE9470037598A /* WaveBoxTests */,
+				4B23563121AEE9460037598A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B23563121AEE9460037598A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B23563021AEE9460037598A /* WaveBox.app */,
+				4B23564421AEE9470037598A /* WaveBoxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B23563221AEE9460037598A /* WaveBox */ = {
+			isa = PBXGroup;
+			children = (
+				4B23563321AEE9460037598A /* AppDelegate.swift */,
+				4B23563521AEE9460037598A /* ViewController.swift */,
+				4B23563721AEE9460037598A /* Main.storyboard */,
+				4B23563A21AEE9460037598A /* Assets.xcassets */,
+				4B23563C21AEE9460037598A /* LaunchScreen.storyboard */,
+				4B23563F21AEE9460037598A /* Info.plist */,
+			);
+			path = WaveBox;
+			sourceTree = "<group>";
+		};
+		4B23564721AEE9470037598A /* WaveBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B23564821AEE9470037598A /* WaveBoxTests.swift */,
+				4B23564A21AEE9470037598A /* Info.plist */,
+			);
+			path = WaveBoxTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B23562F21AEE9460037598A /* WaveBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B23564D21AEE9470037598A /* Build configuration list for PBXNativeTarget "WaveBox" */;
+			buildPhases = (
+				4B23562C21AEE9460037598A /* Sources */,
+				4B23562D21AEE9460037598A /* Frameworks */,
+				4B23562E21AEE9460037598A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveBox;
+			productName = WaveBox;
+			productReference = 4B23563021AEE9460037598A /* WaveBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B23564321AEE9470037598A /* WaveBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B23565021AEE9470037598A /* Build configuration list for PBXNativeTarget "WaveBoxTests" */;
+			buildPhases = (
+				4B23564021AEE9470037598A /* Sources */,
+				4B23564121AEE9470037598A /* Frameworks */,
+				4B23564221AEE9470037598A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B23564621AEE9470037598A /* PBXTargetDependency */,
+			);
+			name = WaveBoxTests;
+			productName = WaveBoxTests;
+			productReference = 4B23564421AEE9470037598A /* WaveBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B23562821AEE9460037598A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Harri;
+				TargetAttributes = {
+					4B23562F21AEE9460037598A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					4B23564321AEE9470037598A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B23562F21AEE9460037598A;
+					};
+				};
+			};
+			buildConfigurationList = 4B23562B21AEE9460037598A /* Build configuration list for PBXProject "WaveBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B23562721AEE9460037598A;
+			productRefGroup = 4B23563121AEE9460037598A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B23562F21AEE9460037598A /* WaveBox */,
+				4B23564321AEE9470037598A /* WaveBoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B23562E21AEE9460037598A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B23563E21AEE9460037598A /* LaunchScreen.storyboard in Resources */,
+				4B23563B21AEE9460037598A /* Assets.xcassets in Resources */,
+				4B23563921AEE9460037598A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B23564221AEE9470037598A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B23562C21AEE9460037598A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B23563621AEE9460037598A /* ViewController.swift in Sources */,
+				4B23563421AEE9460037598A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B23564021AEE9470037598A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B23564921AEE9470037598A /* WaveBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B23564621AEE9470037598A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B23562F21AEE9460037598A /* WaveBox */;
+			targetProxy = 4B23564521AEE9470037598A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B23563721AEE9460037598A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B23563821AEE9460037598A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B23563C21AEE9460037598A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B23563D21AEE9460037598A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B23564B21AEE9470037598A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B23564C21AEE9470037598A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B23564E21AEE9470037598A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaveBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exaple.WaveBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B23564F21AEE9470037598A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaveBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exaple.WaveBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4B23565121AEE9470037598A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaveBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exaple.WaveBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveBox.app/WaveBox";
+			};
+			name = Debug;
+		};
+		4B23565221AEE9470037598A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaveBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exaple.WaveBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveBox.app/WaveBox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B23562B21AEE9460037598A /* Build configuration list for PBXProject "WaveBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B23564B21AEE9470037598A /* Debug */,
+				4B23564C21AEE9470037598A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B23564D21AEE9470037598A /* Build configuration list for PBXNativeTarget "WaveBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B23564E21AEE9470037598A /* Debug */,
+				4B23564F21AEE9470037598A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B23565021AEE9470037598A /* Build configuration list for PBXNativeTarget "WaveBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B23565121AEE9470037598A /* Debug */,
+				4B23565221AEE9470037598A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B23562821AEE9460037598A /* Project object */;
+}
