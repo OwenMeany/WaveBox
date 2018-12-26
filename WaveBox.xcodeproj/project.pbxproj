@@ -13,6 +13,8 @@
 		4B23563B21AEE9460037598A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B23563A21AEE9460037598A /* Assets.xcassets */; };
 		4B23563E21AEE9460037598A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B23563C21AEE9460037598A /* LaunchScreen.storyboard */; };
 		4B23564921AEE9470037598A /* WaveBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23564821AEE9470037598A /* WaveBoxTests.swift */; };
+		4B23565421AF0AAF0037598A /* ExplicitSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23565321AF0AAF0037598A /* ExplicitSimulator.swift */; };
+		4BF136D121B436F8005437C8 /* LeapFrogSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF136D021B436F8005437C8 /* LeapFrogSimulator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		4B23564421AEE9470037598A /* WaveBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B23564821AEE9470037598A /* WaveBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveBoxTests.swift; sourceTree = "<group>"; };
 		4B23564A21AEE9470037598A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B23565321AF0AAF0037598A /* ExplicitSimulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplicitSimulator.swift; sourceTree = "<group>"; };
+		4BF136D021B436F8005437C8 /* LeapFrogSimulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeapFrogSimulator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				4B23563A21AEE9460037598A /* Assets.xcassets */,
 				4B23563C21AEE9460037598A /* LaunchScreen.storyboard */,
 				4B23563F21AEE9460037598A /* Info.plist */,
+				4BF136D021B436F8005437C8 /* LeapFrogSimulator.swift */,
+				4B23565321AF0AAF0037598A /* ExplicitSimulator.swift */,
 			);
 			path = WaveBox;
 			sourceTree = "<group>";
@@ -146,6 +152,7 @@
 				TargetAttributes = {
 					4B23562F21AEE9460037598A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BY29DTAFYG;
 						ProvisioningStyle = Automatic;
 					};
 					4B23564321AEE9470037598A = {
@@ -200,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B23563621AEE9460037598A /* ViewController.swift in Sources */,
+				4BF136D121B436F8005437C8 /* LeapFrogSimulator.swift in Sources */,
 				4B23563421AEE9460037598A /* AppDelegate.swift in Sources */,
+				4B23565421AF0AAF0037598A /* ExplicitSimulator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,11 +348,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BY29DTAFYG;
 				INFOPLIST_FILE = WaveBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.exaple.WaveBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -351,11 +362,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BY29DTAFYG;
 				INFOPLIST_FILE = WaveBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.exaple.WaveBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -406,6 +419,7 @@
 				4B23564F21AEE9470037598A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B23565021AEE9470037598A /* Build configuration list for PBXNativeTarget "WaveBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +428,7 @@
 				4B23565221AEE9470037598A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
